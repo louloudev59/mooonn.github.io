@@ -1,0 +1,16 @@
+# Palettes de Couleur
+
+Pour foncé:
+
+#585858
+#7E7E7E
+#A3A3A3
+#CACACA
+#F0F0F0
+
+Pour Bleu: 
+#0B162C
+#1C2942
+#3B556D
+#5FC2BA
+#FFFFFF

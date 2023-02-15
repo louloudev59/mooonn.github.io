@@ -1,0 +1,78 @@
+.bannière {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CACACA;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  .gauche {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo {
+    margin-left: 30px;
+      margin-top: 5px;
+  }
+  
+  .logo img {
+    width: 70px; /* <-- Modifier pour que logo rentre dans bannière */
+  }
+  .texte {
+    margin-top: 5px;
+    color: #0B162C;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Teko', sans-serif;
+  
+  }
+  
+  .droite {
+    display: flex;
+    align-items: center;
+  }
+  .bn-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px; /* <-- Modifier la valeur de la marge ici pour les rapprocher */
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  
+  .bn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn-hover:focus {
+    outline: none;
+  }
+  
+  .bn-hover.bntest {
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  }
+  
+  
