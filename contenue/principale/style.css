@@ -189,34 +189,5 @@
 display: block;
 max-width: 15%;
 height: auto;
-margin: 20px auto 0;
-}
-.feu-d-artifice {
-position: relative;
-}
-
-.feu-d-artifice img {
-display: block;
-width: 100%;
-height: auto;
-}
-
-.feu-d-artifice .firework {
-position: absolute;
-width: 20px;
-height: 20px;
-background-color: #fff;
-border-radius: 50%;
-animation: firework 1s linear;
-}
-
-@keyframes firework {
-0% {
-  transform: scale(0);
-  opacity: 0.5;
-}
-100% {
-  transform: scale(2);
-  opacity: 0;
-}
+margin: 0 auto;
 }
