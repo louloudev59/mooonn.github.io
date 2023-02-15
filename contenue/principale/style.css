@@ -1,187 +1,222 @@
 .bannière {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #CACACA;
-    height: 60px;
-    padding: 10px;
-  }
-  
-  .gauche {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .logo {
-    margin-left: 30px;
-      margin-top: 5px;
-  }
-  
-  .logo img {
-    width: 70px; /* <-- Modifier pour que logo rentre dans bannière */
-  }
-  .texte {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #CACACA;
+  height: 60px;
+  padding: 10px;
+}
+
+.gauche {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo {
+  margin-left: 30px;
     margin-top: 5px;
-    color: #0B162C;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Teko', sans-serif;
-  
-  }
-  
-  .droite {
-    display: flex;
-    align-items: center;
-  }
-  .bn-hover {
-    width: 160px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 5px; /* <-- Modifier la valeur de la marge ici pour les rapprocher */
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  
-  .bn-hover:hover {
-    background-position: 100% 0;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn-hover:focus {
-    outline: none;
-  }
-  
-  .bn-hover.bntest {
-    background-image: linear-gradient(
-      to right,
-      #29323c,
-      #485563,
-      #2b5876,
-      #4e4376
-    );
-    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
-  }
-  
-  .bannière {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #CACACA;
-    height: 60px;
-    padding: 10px;
-  }
-  
-  .gauche {
-    color: white;
-    font-size: 24px;
-    font-weight: bold;
-  }
-  .logo {
-    margin-left: 30px;
-      margin-top: 5px;
-  }
-  
-  .logo img {
-    width: 70px; /* <-- Modifier pour que logo rentre dans bannière */
-  }
-  .texte {
+}
+
+.logo img {
+  width: 70px; /* <-- Modifier pour que logo rentre dans bannière */
+}
+.texte {
+  margin-top: 5px;
+  color: #0B162C;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.droite {
+  display: flex;
+  align-items: center;
+}
+.bn-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px; /* <-- Modifier la valeur de la marge ici pour les rapprocher */
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+
+.bn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn-hover:focus {
+  outline: none;
+}
+
+.bn-hover.bntest {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.bannière {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #CACACA;
+  height: 60px;
+  padding: 10px;
+}
+
+.gauche {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo {
+  margin-left: 30px;
     margin-top: 5px;
-    color: #0B162C;
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Teko', sans-serif;
-  
-  }
-  
-  .droite {
-    display: flex;
-    align-items: center;
-  }
-  .bn-hover {
-    width: 160px;
-    font-size: 16px;
-    font-weight: 600;
-    color: #fff;
-    cursor: pointer;
-    margin: 5px; /* <-- Modifier la valeur de la marge ici pour les rapprocher */
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-    border-radius: 50px;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  
-  .bn-hover:hover {
-    background-position: 100% 0;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-  }
-  
-  .bn-hover:focus {
-    outline: none;
-  }
-  
-  .bn-hover.bntest {
-    background-image: linear-gradient(
-      to right,
-      #29323c,
-      #485563,
-      #2b5876,
-      #4e4376
-    );
-    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
-  }
-  
-  /* fin bannière */
-  
-  .texte-bienvenue {
-    margin-top: 30px;
-    font-size: 30px;
-    font-family: 'Futura', sans-serif;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .texte-bienvenue span {
-    display: inline-block;
-    animation: none;
-  }
-  
-  .texte-bienvenue span:hover {
-    animation: tremblement 0.8s linear infinite;
-  }
-  
-  @keyframes tremblement {
-    0% { transform: translateX(0); }
-    10% { transform: translateX(-5px) rotate(-5deg); }
-    20% { transform: translateX(5px) rotate(5deg); }
-    30% { transform: translateX(-5px) rotate(-5deg); }
-    40% { transform: translateX(5px) rotate(5deg); }
-    50% { transform: translateX(-5px) rotate(-5deg); }
-    60% { transform: translateX(5px) rotate(5deg); }
-    70% { transform: translateX(-5px) rotate(-5deg); }
-    80% { transform: translateX(5px) rotate(5deg); }
-    90% { transform: translateX(-5px) rotate(-5deg); }
-    100% { transform: translateX(0); }
-  }
-  
+}
+
+.logo img {
+  width: 70px; /* <-- Modifier pour que logo rentre dans bannière */
+}
+.texte {
+  margin-top: 5px;
+  color: #0B162C;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Teko', sans-serif;
+
+}
+
+.droite {
+  display: flex;
+  align-items: center;
+}
+.bn-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 5px; /* <-- Modifier la valeur de la marge ici pour les rapprocher */
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+
+.bn-hover:hover {
+  background-position: 100% 0;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn-hover:focus {
+  outline: none;
+}
+
+.bn-hover.bntest {
+  background-image: linear-gradient(
+    to right,
+    #29323c,
+    #485563,
+    #2b5876,
+    #4e4376
+  );
+  box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+/* fin bannière */
+
+.texte-bienvenue {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'Futura', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.texte-bienvenue span {
+  display: inline-block;
+  animation: none;
+}
+
+.texte-bienvenue span:hover {
+  animation: tremblement 0.8s linear infinite;
+}
+
+@keyframes tremblement {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-5px) rotate(-5deg); }
+  20% { transform: translateX(5px) rotate(5deg); }
+  30% { transform: translateX(-5px) rotate(-5deg); }
+  40% { transform: translateX(5px) rotate(5deg); }
+  50% { transform: translateX(-5px) rotate(-5deg); }
+  60% { transform: translateX(5px) rotate(5deg); }
+  70% { transform: translateX(-5px) rotate(-5deg); }
+  80% { transform: translateX(5px) rotate(5deg); }
+  90% { transform: translateX(-5px) rotate(-5deg); }
+  100% { transform: translateX(0); }
+}
+
+.image-fond {
+display: block;
+max-width: 15%;
+height: auto;
+margin: 20px auto 0;
+}
+.feu-d-artifice {
+position: relative;
+}
+
+.feu-d-artifice img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.feu-d-artifice .firework {
+position: absolute;
+width: 20px;
+height: 20px;
+background-color: #fff;
+border-radius: 50%;
+animation: firework 1s linear;
+}
+
+@keyframes firework {
+0% {
+  transform: scale(0);
+  opacity: 0.5;
+}
+100% {
+  transform: scale(2);
+  opacity: 0;
+}
+}
