@@ -191,3 +191,10 @@ max-width: 15%;
 height: auto;
 margin: 0 auto;
 }
+.texte-construction {
+font-size: 50px;
+font-family: 'VT323', monospace;
+text-align: center;
+margin-top: 40px;
+text-shadow: 2px 2px #000000;
+}
